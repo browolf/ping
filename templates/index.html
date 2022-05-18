@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>LSA  Uptime Monitor</title>
+        <meta http-equiv='refresh' content='60' />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shanti" />
+    </head>
+
+    <body>
+        <center><h1>LSA Uptime Monitor</h1></center>
+        <center><p>Time: {{ thistime }}</p></center>
+        <center>
+        {{ htmlstr|safe }}
+        <center>
+    </center>
+     
+    </body>
+</html>        

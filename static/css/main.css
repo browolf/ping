@@ -1,0 +1,27 @@
+p {
+    font-family: Shanti;
+    font-size: 1.2em;
+    margin: 4px;
+}
+
+H1 {
+    font-family: Shanti;
+    font-size: 3.2em;
+    margin: 2px;
+}
+
+h2 {
+    font-family: Shanti;
+    margin: 10px;
+}
+
+td {
+    padding: 8;
+    font-family: Shanti;
+    font-size: 1.2em;
+    margin: 4px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
